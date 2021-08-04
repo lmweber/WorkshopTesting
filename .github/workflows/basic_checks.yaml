@@ -2,12 +2,12 @@ on: [push, pull_request]
 
 env:
   cache-version: v1
-  repo-name: seandavi/buildabiocworkshop
+  repo-name: lmweber/workshoptesting
 
 jobs:
   job1:
     runs-on: ubuntu-latest
-    container: bioconductor/bioconductor_docker:devel
+    container: bioconductor/bioconductor_docker:RELEASE_3_13
     steps:
       - uses: actions/checkout@v1
 

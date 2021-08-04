@@ -1,12 +1,12 @@
-Package: BuildABiocWorkshop
-Title: Bioconductor Workshop Template and Github Actions
+Package: WorkshopTesting
+Title: Testing
 Version: 0.9.0
 Authors@R: 
-    person(given = "Sean",
-           family = "Davis",
+    person(given = "Lukas M.",
+           family = "Weber",
            role = c("aut", "cre"),
-           email = "seandavi@gmail.com",
-           comment = c(ORCID = "your-orc-id-here"))
+           email = "lukas.weber.edu@gmail.com",
+           comment = c(ORCID = "0000-0002-3282-1730"))
 Description: This package serves as a template for using github actions to 
     prepare a Bioconductor Workshop package for use. In particular,
     a pkgdown website and docker image are generated based on workflow 
@@ -22,7 +22,7 @@ Suggests:
     knitr,
     rmarkdown,
     pkgdown
-URL: https://seandavi.github.io/BuildABiocWorkshop/
-BugReports: https://github.com/seandavi/BuildABiocWorkshop/issues/new/choose
+URL: https://lmweber.github.io/WorkshopTesting/
+BugReports: https://github.com/lmweber/WorkshopTesting/issues/new/choose
 VignetteBuilder: knitr
-DockerImage: seandavi/buildabiocworkshop:latest
+DockerImage: lmweber/workshoptesting:latest
