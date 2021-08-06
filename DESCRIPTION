@@ -17,11 +17,14 @@ LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
 Depends: 
-    Biobase
+    Biobase,
+    SpatialExperiment
 Suggests: 
     knitr,
     rmarkdown,
     pkgdown
+Remotes:
+    drighelli/SpatialExperiment@master
 URL: https://lmweber.github.io/WorkshopTesting/
 BugReports: https://github.com/lmweber/WorkshopTesting/issues/new/choose
 VignetteBuilder: knitr
