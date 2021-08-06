@@ -1,6 +1,6 @@
 Package: WorkshopTesting
 Title: Testing
-Version: 0.9.0
+Version: 0.9.1
 Authors@R: 
     person(given = "Lukas M.",
            family = "Weber",
